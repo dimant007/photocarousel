@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #ffffff;
+}
+img {
+    border: 0;
+    height: 140px;
+    width: 210px;
+}
+.buttons {
+    width: 20px;
+    height: 20px;
+
+}
+.b-carousel  {
+    width: 948px;
+    margin: 50px auto;
+}
+.h-carousel-wrapper {
+    width: 888px;
+    position: relative;
+    overflow: hidden; 
+    margin: 0 auto; 
+}
+.h-carousel-items {
+    width: 10000px; 
+    position: relative; 
+}
+.b-carousel-block {
+    float: left;
+    width: 210px; 
+    padding: 5px 6px; 
+}
+.a-carousel-image-link { 
+    display: block;
+    width: 206px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+.b-carousel-button-left, .b-carousel-button-right {
+    width: 28px; 
+    height: 36px;
+    position: relative;
+    top: 60px; 
+    cursor: pointer; 
+}
+.b-carousel-button-left {
+    float: left; 
+}
+.b-carousel-button-right {
+    float: right; 
+    z-index: 1;
+}
